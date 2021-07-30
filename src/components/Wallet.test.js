@@ -23,7 +23,7 @@ describe("<Wallet />", () => {
     expect(wallet).toMatchSnapshot();
   });
 
-  it("displays the balance", () => {
-    expect(wallet.dive().find(".balance").text()).toEqual("About");
+  it("displays balance", () => {
+    expect(wallet.find(".balance").text()).toEqual("Souvik");
   });
 });

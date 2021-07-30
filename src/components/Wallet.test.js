@@ -24,6 +24,6 @@ describe("<Wallet />", () => {
   });
 
   it("displays balance", () => {
-    expect(wallet.find(".balance").text()).toEqual("Souvik");
+    expect(wallet.find(".balance").text()).toEqual("Wallet Balance: 20");
   });
 });
